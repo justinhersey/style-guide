@@ -11,7 +11,7 @@ title:            TSheets
 tagline:          'Web Application Style Guide'
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              http://tsheets.com
-baseurl:          "" # the subpath of your site, e.g. /blog
+baseurl:          "/style-guides" # the subpath of your site, e.g. /blog
 
 author:
   name:           'Mark Otto'
