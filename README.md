@@ -5,6 +5,8 @@ This is an example of Markdown and is how styles will be specified.
 ```css
 .flat {
   border: 0;
+  min-width: 75px;
+  min-height: 30px;
 }
 ```
 ## Tables
