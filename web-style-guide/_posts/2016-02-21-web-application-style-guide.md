@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Web Application Style Guide
+title: Typography
 ---
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+Headings, paragraphs, blockquotes, lists, and more have some global resets. It’s worth noting these aren’t the same as our Markdown styles.
 
 ### Built on Poole
 
