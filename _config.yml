@@ -10,7 +10,7 @@ title:            TSheets
 tagline:          'Web Application Style Guide'
 description:      ''
 url:              http://justinhersey.github.io/
-baseurl: "/style-guides" # the subpath of your site, e.g. /blog
+baseurl: "/style-guides/" # the subpath of your site, e.g. /blog
 
 author:
   name:           'Mark Otto'
