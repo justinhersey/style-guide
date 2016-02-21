@@ -9,9 +9,9 @@ permalink:        pretty
 # Setup
 title:            TSheets
 tagline:          'Web Application Style Guide'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      ''
 url:              http://justinhersey.github.io/
-baseurl:          "style-guides" # the subpath of your site, e.g. /blog
+baseurl:          "/style-guides" # the subpath of your site, e.g. /blog
 
 author:
   name:           'Mark Otto'
@@ -24,9 +24,6 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
-
-# Build settings
-markdown: kramdown
 
 # Gems
 gems:
