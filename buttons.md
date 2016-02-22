@@ -19,6 +19,16 @@ When using a `<button>` element, always specify a type. When using a `<a>` eleme
 <a class="flat primary action" href="#" role="button">Link button</a>
 ```
 
+# Disabled state
+
+<button class="flat primary action" type="button" disabled>Disabled button</button>
+<a class="flat primary action disabled" href="#" role="button">Disabled button</a>
+
+```
+<button class="flat primary action" type="button" disabled>Disabled button</button>
+<a class="flat primary action disabled" href="#" role="button">Disabled button</a>
+```
+
 ## Button Groups
 
 Button groups are used for multiple buttons where each action compliments the other.
