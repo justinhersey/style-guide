@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            TSheets
 tagline:          'Web Application Style Guide'
-description:      ''
+description:      'TSheets Web Application Style Guide'
 url:              http://justinhersey.github.io/
 baseurl: "/style-guides" # the subpath of your site, e.g. /blog
 
