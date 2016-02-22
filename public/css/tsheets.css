@@ -22,3 +22,7 @@
   background-color: #3178C6;
   color: #FFF;
 }
+
+.action:hover {
+  background-color: #276ebc;
+}
