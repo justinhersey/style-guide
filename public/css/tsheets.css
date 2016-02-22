@@ -1,0 +1,10 @@
+.flat {
+  font-family: 'ClearSans', sans-serif;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  margin: 4px;
+}
