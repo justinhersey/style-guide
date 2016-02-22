@@ -6,6 +6,12 @@ title: Typography
 Our global font is Clear Sans.
 
 # Headings
+# h1. TSheets heading
+## h2. TSheets heading
+### h3. TSheets heading
+#### h4. TSheets heading
+##### h5. TSheets heading
+###### h6. TSheets heading
 ```
 <h1>h1. TSheets heading</h1>
 <h2>h2. TSheets heading</h2>
