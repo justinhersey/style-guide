@@ -11,10 +11,26 @@ Use the .flat class for form actions and primary page actions. These are used ex
 
 When using a `<button>` element, always specify a type. When using a `<a>` element, always add `role="button"` for accessibility.
 
-<button class="btn" type="button">Button button</button>
+<button class="flat" type="button">Button button</button>
 <a class="btn" href="#" role="button">Link button</a>
 
 ```
-<button class="btn" type="button">Button button</button>
-<a class="btn" href="#" role="button">Link button</a>
+<button class="flat" type="button">Button button</button>
+<a class="flat" href="#" role="button">Link button</a>
+```
+
+## Button Groups
+
+Button groups are used for multiple buttons where each action compliments the other.
+
+<div class="button-group">
+    <button class="flat" type="button">Button button</button>
+    <button class="flat" type="button">Button button</button>
+</div>
+
+```
+<div class="button-group">
+    <button class="flat" type="button">Button button</button>
+    <button class="flat" type="button">Button button</button>
+</div>
 ```
