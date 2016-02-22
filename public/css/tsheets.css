@@ -1,6 +1,12 @@
-.action {
-  background-color: #3178C6;
-  color: #FFF;
+.flat {
+  font-family: 'ClearSans', sans-serif;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  margin: 4px;
 }
 
 .primary {
@@ -11,13 +17,7 @@
   color: #333;
 }
 
-.flat {
-  font-family: 'ClearSans', sans-serif;
-  border-radius: 3px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  font-weight: 500;
-  margin: 4px;
+.action {
+  background-color: #3178C6;
+  color: #FFF;
 }
