@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            TSheets
 tagline:          'Web Application Style Guide'
-description:      'TSheets Web Application Style Guide'
+description:      'Style Guide'
 url:              http://justinhersey.github.io/
 baseurl: "/style-guides" # the subpath of your site, e.g. /blog
 
@@ -22,7 +22,7 @@ paginate:         5
 version:          1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/justinhersey/style-guides/tree/gh-pages
 
 # Gems
 gems:
