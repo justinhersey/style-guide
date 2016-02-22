@@ -7,7 +7,7 @@ Buttons are used for actions, like in forms, while textual hyperlinks are used f
 
 ## Default Buttons
 
-Use the .flat class for form actions and primary page actions. These are used extensively throughout the site.
+Use the `.flat` class for form actions and primary page actions. These are used extensively throughout the site.
 
 When using a `<button>` element, always specify a type. When using a `<a>` element, always add `role="button"` for accessibility.
 
