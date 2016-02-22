@@ -1,3 +1,16 @@
+.action {
+  background-color: #3178C6;
+  color: #FFF;
+}
+
+.primary {
+  font-size: 14px;
+  min-width: 75px;
+  padding: 4px 8px 7px 8px;
+  background-color: #DADADA;
+  color: #333;
+}
+
 .flat {
   font-family: 'ClearSans', sans-serif;
   border-radius: 3px;
