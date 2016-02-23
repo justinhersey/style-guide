@@ -3,44 +3,29 @@ layout: page
 title: Colors
 ---
 
-Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.
+Colors.
 
-## Default Buttons
+## Schedule Colors
 
 Use the `.flat` class for form actions and primary page actions. These are used extensively throughout the site.
 
 When using a `<button>` element, always specify a type. When using a `<a>` element, always add `role="button"` for accessibility.
 
+<ul>
+    <li style="width: 96px;height: 96px;background-color: #888888">#888888</li>
+    <li style="width: 96px;height: 96px;background-color: #F44336">#F44336</li>
+    <li style="width: 96px;height: 96px;background-color: #EF6C00">#EF6C00</li>
+    <li style="width: 96px;height: 96px;background-color: #43A047">#43A047</li>
+    <li style="width: 96px;height: 96px;background-color: #009688">#009688</li>
+    <li style="width: 96px;height: 96px;background-color: #2196F3">#2196F3</li>
+    <li style="width: 96px;height: 96px;background-color: #3F51B5">#3F51B5</li>
+    <li style="width: 96px;height: 96px;background-color: #673AB7">#673AB7</li>
+    <li style="width: 96px;height: 96px;background-color: #785548">#785548</li>
+</ul>
 <button class="flat primary action" type="button">Button button</button>
 <a class="btn" href="#" role="button">Link button</a>
 
 ```
 <button class="flat primary action" type="button">Button button</button>
 <a class="flat primary action" href="#" role="button">Link button</a>
-```
-
-## Disabled state
-
-<button class="flat primary action" type="button" disabled>Disabled button</button>
-<a class="flat primary action disabled" href="#" role="button">Disabled button</a>
-
-```
-<button class="flat primary action" type="button" disabled>Disabled button</button>
-<a class="flat primary action disabled" href="#" role="button">Disabled button</a>
-```
-
-## Button Groups
-
-Button groups are used for multiple buttons where each action compliments the other.
-
-<div class="button-group">
-    <button class="flat primary" type="button">Button button</button>
-    <button class="flat primary action" type="button">Button button</button>
-</div>
-
-```
-<div class="button-group">
-    <button class="flat" type="button">Button button</button>
-    <button class="flat" type="button">Button button</button>
-</div>
 ```
