@@ -11,7 +11,7 @@ Use the `.flat` class for form actions and primary page actions. These are used 
 
 When using a `<button>` element, always specify a type. When using a `<a>` element, always add `role="button"` for accessibility.
 
-<ul style="color:#fff;">
+<ul style="color:#fff;list-style:none;">
     <li style="width: 96px;height: 96px;background-color: #888888">#888888</li>
     <li style="width: 96px;height: 96px;background-color: #F44336">#F44336</li>
     <li style="width: 96px;height: 96px;background-color: #EF6C00">#EF6C00</li>
