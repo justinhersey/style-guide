@@ -7,7 +7,7 @@ The look and feel of our product relies on using a handful of specific colors th
 
 ## Schedule Colors
 
-When using a `<button>` element, always specify a type. When using a `<a>` element, always add `role="button"` for accessibility.
+### Event Colors
 
 <ul style="color:#fff;list-style:none;font-size: 14px;margin:0;padding:0;">
     <li style="width: 96px;height: 96px;background-color: #888888;display:inline-block;"><span style="background-color:rgba(0,0,0,0.6);padding:2px 4px;">#888888</span></li>
@@ -20,8 +20,6 @@ When using a `<button>` element, always specify a type. When using a `<a>` eleme
     <li style="width: 96px;height: 96px;background-color: #673AB7;display:inline-block;"><span style="background-color:rgba(0,0,0,0.6);padding:2px 4px;">#673AB7</span></li>
     <li style="width: 96px;height: 96px;background-color: #785548;display:inline-block;"><span style="background-color:rgba(0,0,0,0.6);padding:2px 4px;">#785548</span></li>
 </ul>
-<button class="flat primary action" type="button">Button button</button>
-<a class="btn" href="#" role="button">Link button</a>
 
 ```
 <button class="flat primary action" type="button">Button button</button>
