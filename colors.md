@@ -3,11 +3,9 @@ layout: page
 title: Colors
 ---
 
-Colors.
+The look and feel of our product relies on using a handful of specific colors that help convey meaning and purpose.
 
 ## Schedule Colors
-
-Use the `.flat` class for form actions and primary page actions. These are used extensively throughout the site.
 
 When using a `<button>` element, always specify a type. When using a `<a>` element, always add `role="button"` for accessibility.
 
