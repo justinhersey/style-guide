@@ -8,6 +8,7 @@ The look and feel of our product relies on using a handful of specific colors th
 ## Schedule Colors
 
 ### Event Colors
+Event colors are used as tags to distinguish events.
 
 <ul style="color:#fff;list-style:none;font-size: 14px;margin:0;padding:0;">
     <li style="width: 96px;height: 96px;background-color: #888888;display:inline-block;"><span style="background-color:rgba(0,0,0,0.6);padding:2px 4px;">#888888</span></li>
@@ -22,6 +23,8 @@ The look and feel of our product relies on using a handful of specific colors th
 </ul>
 
 ### Print Colors
+Print colors are used when printing a schedule to enhance readability.
+
 <ul style="color:#fff;list-style:none;font-size: 14px;margin:0;padding:0;">
     <li style="width: 96px;height: 96px;background-color: #E7E7E7;display:inline-block;border: #888888 1px solid;"><span style="background-color:rgba(0,0,0,0.6);padding:2px 4px;">#E7E7E7</span></li>
     <li style="width: 96px;height: 96px;background-color: #FDDAD7;display:inline-block;border: #F44336 1px solid;"><span style="background-color:rgba(0,0,0,0.6);padding:2px 4px;">#FDDAD7</span></li>
