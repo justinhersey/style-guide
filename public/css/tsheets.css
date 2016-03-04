@@ -9,8 +9,6 @@ hr {
 }
 
 .sidebar-nav-item.active {
-  padding-left: 12px;
-  border-left: #fff 4px solid;
   font-weight: 600;
 }
 
