@@ -13,8 +13,8 @@ url:              http://justinhersey.github.io/
 baseurl: "/style-guides" # the subpath of your site, e.g. /blog
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'TSheets'
+  url:            http://tsheets.com
 
 paginate:         5
 
@@ -28,3 +28,8 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+# Collections
+collections:
+  components:
+    output: false
