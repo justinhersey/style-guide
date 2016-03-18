@@ -31,5 +31,4 @@ gems:
 
 # Collections
 collections:
-  components:
-    output: false
+  - components
