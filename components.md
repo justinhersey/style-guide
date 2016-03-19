@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Buttons
+title: Components
 ---
 {% for button in site.components %}
   {% button.content %}
