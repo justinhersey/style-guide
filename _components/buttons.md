@@ -1,5 +1,5 @@
 ---
-title: Primary Button
+title: Buttons
 ---
 Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.
 
