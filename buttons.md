@@ -5,6 +5,7 @@ title: Buttons
 {% for button in site.components %}
   {% button.content %}
 {% endfor %}
+
 Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.
 
 ## Default Buttons
