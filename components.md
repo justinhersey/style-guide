@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Buttons
+title: Components
 ---
-{% for button in site.components %}
-  {% button.content %}
+{% for buttons in site.components %}
+  {{ buttons }}
 {% endfor %}
 
 Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.
