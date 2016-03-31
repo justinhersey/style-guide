@@ -16,8 +16,6 @@ author:
   name:           'TSheets'
   url:            http://tsheets.com
 
-paginate:         5
-
 # Custom vars
 version:          1.0
 
@@ -26,7 +24,6 @@ github:
 
 # Gems
 gems:
-  - jekyll-paginate
   - jekyll-gist
 
 # Collections
