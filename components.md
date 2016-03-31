@@ -2,25 +2,20 @@
 layout: page
 title: Components
 ---
+
+Components make up most of our reusable elements.
+
+{% assign components = site.components | group_by:"type" %}
+{% for component in components %}
+<h2 id="guide-{{ component.name }}" class="cf">{{ component.name | capitalize }}</h2>
+{% for entry in component.items %}
+{% include component.html %}
+{% endfor %}
+{% endfor %}
+
 {% for buttons in site.components %}
   {{ buttons }}
 {% endfor %}
-
-Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.
-
-## Default Buttons
-
-Use the `.flat` class for form actions and primary page actions. These are used extensively throughout the site.
-
-When using a `<button>` element, always specify a type. When using a `<a>` element, always add `role="button"` for accessibility.
-
-<button class="flat primary action" type="button">Button Button</button>
-<a class="btn" href="#" role="button">Link button</a>
-
-```
-<button class="flat primary action" type="button">Button button</button>
-<a class="flat primary action" href="#" role="button">Link button</a>
-```
 
 ## Disabled state
 
