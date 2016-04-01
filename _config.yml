@@ -21,3 +21,7 @@ github:
 # Collections
 collections:
   - components
+
+# SASS
+sass:
+  style: compressed

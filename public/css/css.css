@@ -1,5 +1,5 @@
 
-/* Because we do dynamic window height measurements for timecard sizing, we need to make sure that timecard.css 
+/* Because we do dynamic window height measurements for timecard sizing, we need to make sure that timecard.css
    is loaded and styles are applied. */
 @import url("css/timecard.css");
 
@@ -99,7 +99,7 @@ div.global-winc-container {
     padding: 7px;
     color: #FFFFFF;
 }
-    
+
 #box_content {
     vertical-align: top;
     background: #FAFAFA;
@@ -249,7 +249,7 @@ div.global-winc-container {
 
 .notification_date {
     text-align:left;
-    font-size:0.8em; 
+    font-size:0.8em;
     color:#999999;
     margin-bottom:7px;
 }
@@ -328,7 +328,7 @@ div.global-winc-container {
     box-shadow: 0px 1px 2px 1px rgba(25,25,25,0.24);
     z-index: 90;
 }
-    
+
 .nc_preview_header {
     padding: 13px 0px 13px 13px;
     font-size: 16px;
@@ -613,13 +613,13 @@ div.global-winc-container {
 }
 
 .ts-block-title {
-    font-weight:500; 
+    font-weight:500;
     font-size: 20px;
     color: #333333;
 }
 
 .ts-block-subtitle {
-    font-size:14px; 
+    font-size:14px;
     color: #333333;
 }
 
@@ -633,13 +633,13 @@ div.global-winc-container {
 .ts-input-remove-emboss {
     border: 1px solid #DADADA;
 }
-    
+
 
 /* For IE10+ */
 select::-ms-expand{
     display:none;
 }
-    
+
 /*-------------- Text at bottom of the page (both sites) --------------*/
 .bottomBox {
     padding: 2px 4px 6px 4px;
@@ -957,7 +957,7 @@ select.select {
 /* ---------------------------- PTO Accruals warning for applying to all --------------------------*/
 
 .confirmation_wrapper {
-    
+
     background:#fff;
     padding:25px;
     border-radius: 5px;
@@ -1722,7 +1722,7 @@ button.save, .buttons a.save, input.save{
 }
 
 
-/* Buttons Rev2 
+/* Buttons Rev2
    Inspiration: http://ubuwaits.github.com/css3-buttons/
 */
 
@@ -2226,7 +2226,7 @@ ul#secondary_tab_holder li:last-child a { border: none; }
      display: inline-block;
      white-space: nowrap;
  }
- 
+
 .new-badge {
     background-color: #039BE5;
 }
@@ -2401,128 +2401,128 @@ div.approvals_dashboard_overlay {
 /* Outside Approvals Report */
 
 .outside_approvals_holder {
-    margin:0px auto; 
-    width:940px; 
+    margin:0px auto;
+    width:940px;
     font-family: 'ClearSans', sans-serif;
 }
 
 .outside_approvals_container {
-    width: 940px; 
-    clear:both; 
-    -moz-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09); 
-    -webkit-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09); 
-    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09); 
+    width: 940px;
+    clear:both;
+    -moz-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09);
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09);
     font-family:'ClearSans', sans-serif;
     border:1px solid #d7d7d7;
     background:#fff;
     color:#333;
     position:relative;
-    min-height:500px; 
+    min-height:500px;
     padding:0px;
 }
 
 .report_dashboard {
-    position: relative; 
-    top: 0px; 
-    left: -10px; 
-    width:960px; 
-    background:#feffe0; 
-    -moz-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09); 
-    -webkit-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09); 
-    box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09); 
-    margin-top:25px; 
+    position: relative;
+    top: 0px;
+    left: -10px;
+    width:960px;
+    background:#feffe0;
+    -moz-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09);
+    box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09);
+    margin-top:25px;
     clear:both;
 }
 
 .dashboard_total_hours {
-    margin:30px 50px; 
-    text-align: center; 
-    float: left; 
-    background: #9ddb84; 
-    padding:10px; 
-    color:#356821; 
-    -moz-border-radius: 3px; 
-    border-radius: 3px; 
-    font-size: 25px; 
+    margin:30px 50px;
+    text-align: center;
+    float: left;
+    background: #9ddb84;
+    padding:10px;
+    color:#356821;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .outside_approvals_employee_container {
-    padding: 10px; 
-    background: #eee; 
-    border-bottom: 1px solid #ccc; 
+    padding: 10px;
+    background: #eee;
+    border-bottom: 1px solid #ccc;
     height:40px;
 }
 
 div.outside_approvals_employee_name {
-    float:left; 
-    display:block; 
-    padding-top:9px; 
-    padding-left: 20px; 
-    font-size: 17px; 
+    float:left;
+    display:block;
+    padding-top:9px;
+    padding-left: 20px;
+    font-size: 17px;
     font-weight: bold;
 }
 
 .outside_approvals_employee_hours_graph_holder {
-    display:block; 
-    width: 100px; 
-    float: right; 
-    height: 20px; 
-    position: relative; 
-    margin-top:10px; 
-    -webkit-border-radius: 10px; 
-    -moz-border-radius: 10px; 
-    border-radius: 10px; 
-    background-color: #999; 
-    position: relative; 
-    overflow: hidden; 
-    -webkit-box-shadow: 1px 1px #fff; 
-    -moz-box-shadow: 1px 1px #fff; 
+    display:block;
+    width: 100px;
+    float: right;
+    height: 20px;
+    position: relative;
+    margin-top:10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #999;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px #fff;
+    -moz-box-shadow: 1px 1px #fff;
     box-shadow: 1px 1px #fff;
 }
 
 .outside_approvals_employee_hours_reg_progress {
-    display: block; 
-    float: left; 
-    height: 100%; 
-    -webkit-border-radius: 10px; 
-    -moz-border-radius: 10px; 
-    border-radius: 10px;  
-    background-color: rgb(43,194,83); 
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(43,194,83)), color-stop(1, rgb(84,240,84))); 
-    background-image: -moz-linear-gradient(center bottom, rgb(43,194,83) 37%, rgb(84,240,84) 69%); 
-    position: absolute; 
+    display: block;
+    float: left;
+    height: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgb(43,194,83);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(43,194,83)), color-stop(1, rgb(84,240,84)));
+    background-image: -moz-linear-gradient(center bottom, rgb(43,194,83) 37%, rgb(84,240,84) 69%);
+    position: absolute;
     overflow: hidden;
 }
 
 .outside_approvals_employee_hours_ot_progress {
-    display: block; 
-    float: right; 
-    height: 100%; 
-    -webkit-border-radius: 10px; 
-    -moz-border-radius: 10px; 
-    border-radius: 10px;  
-    background-color: #f0a3a3; 
+    display: block;
+    float: right;
+    height: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f0a3a3;
     background-image: -moz-linear-gradient(top, #f0a3a3, #f42323);
     background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f0a3a3),color-stop(1, #f42323));
-    background-image: -webkit-linear-gradient(#f0a3a3, #f42323); 
-    position: absolute; 
+    background-image: -webkit-linear-gradient(#f0a3a3, #f42323);
+    position: absolute;
     overflow: hidden;
     right:0;
 }
 
 .outside_approvals_employee_total_hours {
     text-align: center;
-    float: right; 
-    background: #9ddb84; 
-    padding:7px; 
-    color:#356821; 
-    -moz-border-radius: 3px; 
-    border-radius: 3px; 
-    font-size: 15px; 
-    font-weight: bold; 
-    margin-right:10px; 
-    display:block; 
+    float: right;
+    background: #9ddb84;
+    padding:7px;
+    color:#356821;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right:10px;
+    display:block;
     margin-top:4px;
 }
 
@@ -2533,82 +2533,82 @@ div.outside_approvals_employee_name {
 }
 
 .outside_approvals_loading {
-    float: right; 
-    margin-right: 15px; 
-    margin-top: 10px; 
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
     display:none;
 }
 
 .outside_approvals_week_details_holder {
-    background: #ccc; 
-    height:130px; 
-    -webkit-box-shadow: inset 0px -1px #fff, inset -1px 0px 0px #fff, inset 1px 0px 0px #fff; 
+    background: #ccc;
+    height:130px;
+    -webkit-box-shadow: inset 0px -1px #fff, inset -1px 0px 0px #fff, inset 1px 0px 0px #fff;
     -moz-box-shadow: inset 0px -1px #fff, inset -1px 0px 0px #fff, inset 1px 0px 0px #fff;
-    box-shadow: inset 0px -1px #fff, inset -1px 0px 0px #fff, inset 1px 0px 0px #fff; 
-    display:none; 
+    box-shadow: inset 0px -1px #fff, inset -1px 0px 0px #fff, inset 1px 0px 0px #fff;
+    display:none;
     position:relative;
 }
 
 .outside_approvals_week_details_holder .scroll_holder {
-    height:120px; 
-    margin:0px 8px; 
-    overflow:auto; 
-    overflow-y:hidden; 
-    position:relative; 
-    background:#ccc; 
+    height:120px;
+    margin:0px 8px;
+    overflow:auto;
+    overflow-y:hidden;
+    position:relative;
+    background:#ccc;
     text-align: center;
 }
 
 .outside_approvals_week_details_holder .scroll_holder .day_holder {
-    height:100px; 
-    overflow:auto; 
-    position:absolute; 
-    background:#ccc; 
-    top:5px; 
+    height:100px;
+    overflow:auto;
+    position:absolute;
+    background:#ccc;
+    top:5px;
     text-align: center;
 }
 
 .outside_approvals_day_holder {
-    float:left; 
-    margin-left:13px; 
-    margin-top:15px; 
-    text-align:center; 
+    float:left;
+    margin-left:13px;
+    margin-top:15px;
+    text-align:center;
     padding:3px;
 }
 
 .outside_approvals_weekend {
-    background: #eee; 
-    -moz-border-radius: 3px; 
+    background: #eee;
+    -moz-border-radius: 3px;
     border-radius: 3px;
 }
 
 .outside_approvals_day_holder .day_of_week {
-    color: #888; 
-    margin-bottom: 9px; 
+    color: #888;
+    margin-bottom: 9px;
     border-bottom: 1px solid #888;
 }
 
 .outside_approvals_day_holder .day_hours {
-    background:#999; 
-    color: #eee; 
-    text-align: center; 
-    padding:7px; 
-    -moz-border-radius: 3px; 
-    border-radius: 3px; 
-    font-size: 15px; 
-    font-weight: bold; 
+    background:#999;
+    color: #eee;
+    text-align: center;
+    padding:7px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
     display:block;
 }
 
 .outside_approvals_day_holder .day_number {
-    color: #888; 
+    color: #888;
     margin-top: 3px;
 }
 
 /* Payroll Reports */
 .payroll_reports_holder {
-    margin: 0px auto; 
-    width: 940px; 
+    margin: 0px auto;
+    width: 940px;
     font-family: 'ClearSans', sans-serif;
 }
 
@@ -2635,7 +2635,7 @@ div.outside_approvals_employee_name {
 .payroll_report_tabs:hover {
     height: 30px;
     line-height: 30px;
-    
+
 }
 
 .active_payroll_tab {
@@ -2645,43 +2645,43 @@ div.outside_approvals_employee_name {
 }
 
 .payroll_reports_container {
-    width: 966px; 
-    clear:both; 
-    -moz-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09); 
-    -webkit-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09); 
-    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09); 
+    width: 966px;
+    clear:both;
+    -moz-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09);
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.09);
     font-family:'ClearSans', sans-serif;
     border:1px solid #d7d7d7;
     background:#fff;
     color:#333;
     position:relative;
-    min-height:500px; 
+    min-height:500px;
     padding:0px;
 }
 
 .payroll_reports_dashboard {
-    position: relative; 
-    top: 0px; 
-    left: -10px; 
-    width:960px; 
-    background:#feffe0; 
-    -moz-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09); 
-    -webkit-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09); 
-    box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09); 
-    margin-top:25px; 
+    position: relative;
+    top: 0px;
+    left: -10px;
+    width:960px;
+    background:#feffe0;
+    -moz-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09);
+    box-shadow:0px 4px 5px rgba(0, 0, 0, 0.09);
+    margin-top:25px;
     clear:both;
 }
 
 .payroll_reports_dashboard_total_hours {
-    margin:30px 50px; 
-    text-align: center; 
-    float: left; 
-    background: #9ddb84; 
-    padding:10px 10px 17px 10px; 
-    color:#356821; 
-    -moz-border-radius: 3px; 
-    border-radius: 3px; 
-    font-size: 25px; 
+    margin:30px 50px;
+    text-align: center;
+    float: left;
+    background: #9ddb84;
+    padding:10px 10px 17px 10px;
+    color:#356821;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -2739,34 +2739,34 @@ div.payroll_reports_employee_name {
 }
 
 .payroll_reports_employee_hours_reg_progress {
-    display: block; 
-    float: left; 
-    height: 100%; 
-    background-color: #9ddb84; 
+    display: block;
+    float: left;
+    height: 100%;
+    background-color: #9ddb84;
     overflow: hidden;
 }
 
 .payroll_reports_employee_hours_ot_progress {
-    display: block; 
-    float: left; 
-    height: 100%; 
-    background-color: #db8484; 
+    display: block;
+    float: left;
+    height: 100%;
+    background-color: #db8484;
     overflow: hidden;
 }
 
 .payroll_reports_employee_hours_pto_progress {
-    display: block; 
-    float: left; 
-    height: 100%; 
-    background-color: #84d2db; 
+    display: block;
+    float: left;
+    height: 100%;
+    background-color: #84d2db;
     overflow: hidden;
 }
 
 .payroll_reports_employee_hours_paid_break_progress {
-    display: block; 
-    float: left; 
-    height: 100%; 
-    background-color: #ffa44a; 
+    display: block;
+    float: left;
+    height: 100%;
+    background-color: #ffa44a;
     overflow: hidden;
 }
 
@@ -2774,22 +2774,22 @@ div.payroll_reports_employee_name {
 
 .payroll_reports_employee_total_hours {
     text-align: center;
-    float: right; 
-    background: #999; 
-    padding:7px; 
-    color:#333; 
-    -moz-border-radius: 3px; 
-    border-radius: 3px; 
-    font-size: 15px; 
-    font-weight: bold; 
-    margin-right:10px; 
-    display:block; 
+    float: right;
+    background: #999;
+    padding:7px;
+    color:#333;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right:10px;
+    display:block;
     margin-top:4px;
 }
 
 .payroll_reports_employee_reg_hours {
-    background: #9ddb84; 
-    color:#356821; 
+    background: #9ddb84;
+    color:#356821;
 }
 
 .payroll_reports_employee_pto_hours {
@@ -2803,73 +2803,73 @@ div.payroll_reports_employee_name {
 }
 
 .payroll_reports_loading {
-    float: right; 
-    margin-right: 15px; 
-    margin-top: 10px; 
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
     display:none;
 }
 
 .payroll_reports_week_details_holder {
-    background: #ccc; 
-    -webkit-box-shadow: inset 0px -1px #fff, inset -1px 0px 0px #fff, inset 1px 0px 0px #fff; 
+    background: #ccc;
+    -webkit-box-shadow: inset 0px -1px #fff, inset -1px 0px 0px #fff, inset 1px 0px 0px #fff;
     -moz-box-shadow: inset 0px -1px #fff, inset -1px 0px 0px #fff, inset 1px 0px 0px #fff;
-    box-shadow: inset 0px -1px #fff, inset -1px 0px 0px #fff, inset 1px 0px 0px #fff; 
-    display:none; 
+    box-shadow: inset 0px -1px #fff, inset -1px 0px 0px #fff, inset 1px 0px 0px #fff;
+    display:none;
 }
 
 .payroll_reports_week_details_holder .scroll_holder {
     height:140px;
-    margin:0px 8px; 
-    overflow:auto; 
-    overflow-y:hidden; 
-    position:relative; 
-    background:#ccc; 
+    margin:0px 8px;
+    overflow:auto;
+    overflow-y:hidden;
+    position:relative;
+    background:#ccc;
     text-align: center;
 }
 
 .payroll_reports_week_details_holder .scroll_holder .day_holder {
 
-    overflow:auto; 
-    position:absolute; 
-    background:#ccc; 
-    top:5px; 
+    overflow:auto;
+    position:absolute;
+    background:#ccc;
+    top:5px;
     text-align: center;
 }
 
 .payroll_reports_day_holder {
-    float:left; 
-    margin-left:13px; 
+    float:left;
+    margin-left:13px;
     margin-top:15px;
-    text-align:center; 
+    text-align:center;
     padding:3px;
 }
 
 .payroll_reports_weekend {
-    background: #eee; 
-    -moz-border-radius: 3px; 
+    background: #eee;
+    -moz-border-radius: 3px;
     border-radius: 3px;
 }
 
 .payroll_reports_day_holder .day_of_week {
-    color: #888; 
-    margin-bottom: 9px; 
+    color: #888;
+    margin-bottom: 9px;
     border-bottom: 1px solid #888;
 }
 
 .payroll_reports_day_holder .day_hours {
-    background:#999; 
-    color: #eee; 
-    text-align: center; 
-    padding:7px; 
-    -moz-border-radius: 3px; 
-    border-radius: 3px; 
-    font-size: 15px; 
-    font-weight: bold; 
+    background:#999;
+    color: #eee;
+    text-align: center;
+    padding:7px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
     display:block;
 }
 
 .payroll_reports_day_holder .day_number {
-    color: #888; 
+    color: #888;
     margin-top: 3px;
 }
 
@@ -5768,49 +5768,49 @@ div.wwTT_Menu .contents {
 
 .ui-widget-content a {
     color: #3178C6;
-}    .tabs { 
+}    .tabs {
         list-style: none;
     }
-        .tabs li { 
+        .tabs li {
           /* Makes a horizontal row */
-            float: left; 
-            
+            float: left;
+
             /* So the psueudo elements can be
                abs. positioned inside */
-            position: relative; 
+            position: relative;
         }
-        .tabs a { 
+        .tabs a {
           /* Make them block level
              and only as wide as they need */
-          float: left; 
-          padding: 10px 20px; 
+          float: left;
+          padding: 10px 20px;
           text-decoration: none;
           outline: none;
-          
-          /* Default colors */ 
+
+          /* Default colors */
           color: black;
-          background: #eee; 
-          
+          background: #eee;
+
           /* Only round the top corners */
           -webkit-border-top-left-radius: 15px;
           -webkit-border-top-right-radius: 15px;
           -moz-border-radius-topleft: 15px;
           -moz-border-radius-topright: 15px;
           border-top-left-radius: 15px;
-          border-top-right-radius: 15px; 
+          border-top-right-radius: 15px;
         }
         .tabs .active {
           /* Highest, active tab is on top */
           z-index: 3;
         }
-        .tabs .active a { 
+        .tabs .active a {
           /* Colors when tab is active */
-          background: #ccc; 
-          color: black; 
+          background: #ccc;
+          color: black;
         }
-        .tabs li:before, .tabs li:after, 
+        .tabs li:before, .tabs li:after,
         .tabs li a:before, .tabs li a:after {
-          /* All pseudo elements are 
+          /* All pseudo elements are
              abs. positioned and on bottom */
           position: absolute;
           bottom: 0;
@@ -5819,13 +5819,13 @@ div.wwTT_Menu .contents {
            tabs need pseudo elements at all */
         .tabs li:last-child:after,   .tabs li:last-child a:after,
         .tabs li:first-child:before, .tabs li:first-child a:before,
-        .tabs .active:after,   .tabs .active:before, 
+        .tabs .active:after,   .tabs .active:before,
         .tabs .active a:after, .tabs .active a:before {
           content: "";
         }
         .tabs .active:before, .tabs .active:after {
-          background: #ccc; 
-          
+          background: #ccc;
+
           /* Squares below circles */
           z-index: 1;
         }
@@ -5836,21 +5836,21 @@ div.wwTT_Menu .contents {
           height: 10px;
         }
         .tabs li:before {
-          left: -10px;      
+          left: -10px;
         }
-        .tabs li:after { 
+        .tabs li:after {
           right: -10px;
         }
         /* Circles */
         .tabs li a:after, .tabs li a:before {
-          width: 20px; 
+          width: 20px;
           height: 20px;
           /* Circles are circular */
           -webkit-border-radius: 10px;
           -moz-border-radius:    10px;
           border-radius:         10px;
           background: #fff;
-          
+
           /* Circles over squares */
           z-index: 2;
         }
@@ -5868,7 +5868,7 @@ div.wwTT_Menu .contents {
         }
         .tabs li a:after {
           right: -20px;
-        }    
+        }
         .group:before,
 .group:after {
     content: "";
