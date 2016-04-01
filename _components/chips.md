@@ -1,9 +1,8 @@
 ---
 title: Chips
-type: chip
+type: chips
+summary: Chip Summary
 ---
-
-## {{ page.title }}
 
 Chips represent complex entities in small blocks, such as a contact.
 

@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="/style-guides/public/css/syntax.css">
   <link rel="stylesheet" href="/style-guides/public/css/hyde.css">
   <link rel="stylesheet" href="/style-guides/public/css/tsheets.css">
-  <link rel="stylesheet" href="/style-guides/public/css/css.php">
+  <!--<link rel="stylesheet" href="/style-guides/public/css/css.css">-->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
@@ -99,16 +99,50 @@
   <h1 class="page-title">Components</h1>
   <p>Components make up most of our reusable elements.</p>
 
-<h2 id="guide-" class="cf"></h2>
-
-<h2 id="guide-" class="cf"></h2>
+<h1 id="guide-buttons" class="cf">Buttons</h1>
 
 <h2 id="default-buttons">Default Buttons</h2>
-
 <p>Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.</p>
+<p>Use the <code class="highlighter-rouge">.flat</code> class for form actions and primary page actions. These are used extensively throughout the site.</p>
+
+<p>When using a <code class="highlighter-rouge">&lt;button&gt;</code> element, always specify a type. When using a <code class="highlighter-rouge">&lt;a&gt;</code> element, always add <code class="highlighter-rouge">role="button"</code> for accessibility.</p>
+
+<p><button class="flat primary action" type="button">Button Button</button>
+<a class="btn" href="#" role="button">Link button</a></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;button class="flat primary action" type="button"&gt;Button button&lt;/button&gt;
+&lt;a class="flat primary action" href="#" role="button"&gt;Link button&lt;/a&gt;
+</code></pre>
+</div>
+
+<h2 id="disabled-buttons">Disabled Buttons</h2>
+<p>Disabled Button Summary</p>
+<p><button class="flat primary action" type="button" disabled="">Disabled button</button>
+<a class="flat primary action disabled" href="#" role="button">Disabled button</a></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;button class="flat primary action" type="button" disabled&gt;Disabled button&lt;/button&gt;
+&lt;a class="flat primary action disabled" href="#" role="button"&gt;Disabled button&lt;/a&gt;
+</code></pre>
+</div>
+
+<h2 id="group-buttons">Group Buttons</h2>
+<p>Button groups are used for multiple buttons where each action compliments the other.</p>
+<div class="button-group">
+    <button class="flat primary" type="button">Button button</button>
+    <button class="flat primary action" type="button">Button button</button>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;div class="button-group"&gt;
+    &lt;button class="flat" type="button"&gt;Button button&lt;/button&gt;
+    &lt;button class="flat" type="button"&gt;Button button&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+</div>
+
+<h1 id="guide-chips" class="cf">Chips</h1>
 
 <h2 id="chips">Chips</h2>
-
+<p>Chip Summary</p>
 <p>Chips represent complex entities in small blocks, such as a contact.</p>
 
 <ul class="token-input-list-schedule-ssb"><li class="token-input-token-schedule-ssb"><p>James Hatfield</p><span class="token-input-delete-token-schedule-ssb">×</span></li><li class="token-input-input-token-schedule-ssb"><input type="text" autocomplete="off" autocapitalize="off" autocorrect="off" id="token-input-addon_schedule2_username" style="outline: none; width: 30px;" /><tester style="position: absolute; top: -9999px; left: -9999px; width: auto; font-size: 14px; font-family: ClearSans, sans-serif; font-weight: 400; letter-spacing: 0px; white-space: nowrap;"></tester></li></ul>
@@ -126,31 +160,6 @@
 </code></pre>
 </div>
 
-<h2 id="disabled-state">Disabled state</h2>
-
-<p><button class="flat primary action" type="button" disabled="">Disabled button</button>
-<a class="flat primary action disabled" href="#" role="button">Disabled button</a></p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;button class="flat primary action" type="button" disabled&gt;Disabled button&lt;/button&gt;
-&lt;a class="flat primary action disabled" href="#" role="button"&gt;Disabled button&lt;/a&gt;
-</code></pre>
-</div>
-
-<h2 id="button-groups">Button Groups</h2>
-
-<p>Button groups are used for multiple buttons where each action compliments the other.</p>
-
-<div class="button-group">
-    <button class="flat primary" type="button">Button button</button>
-    <button class="flat primary action" type="button">Button button</button>
-</div>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;div class="button-group"&gt;
-    &lt;button class="flat" type="button"&gt;Button button&lt;/button&gt;
-    &lt;button class="flat" type="button"&gt;Button button&lt;/button&gt;
-&lt;/div&gt;
-</code></pre>
-</div>
 
 </div>
 
