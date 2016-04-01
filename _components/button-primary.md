@@ -1,5 +1,5 @@
 ---
-title: Default Button
+title: Primary Button
 type: buttons
 summary: Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.
 ---

@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="/style-guides/public/css/css.css">
   <link rel="stylesheet" href="/style-guides/public/css/addon_schedule2.css">
   <link rel="stylesheet" href="/style-guides/public/css/addon_schedule2_ssb.css">
+  <link rel="stylesheet" href="/style-guides/public/css/timecard.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
@@ -108,11 +109,13 @@
     
     <optgroup label="Buttons">
     
-    <option value="#guide-default-button">Default Button</option>
-    
     <option value="#guide-disabled-button">Disabled Button</option>
     
     <option value="#guide-button-group">Button Group</option>
+    
+    <option value="#guide-primary-button">Primary Button</option>
+    
+    <option value="#guide-text-button">Text Button</option>
     
     </optgroup>
     
@@ -141,20 +144,6 @@
 
 <h1 id="guide-buttons" class="cf">Buttons</h1>
 
-<h2 id="guide-default-button">Default Button</h2>
-<p>Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.</p>
-<p>Use the <code class="highlighter-rouge">.flat</code> class for form actions and primary page actions. These are used extensively throughout the site.</p>
-
-<p>When using a <code class="highlighter-rouge">&lt;button&gt;</code> element, always specify a type. When using a <code class="highlighter-rouge">&lt;a&gt;</code> element, always add <code class="highlighter-rouge">role="button"</code> for accessibility.</p>
-
-<p><button class="flat primary action" type="button">Button Button</button>
-<a class="btn" href="#" role="button">Link button</a></p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;button class="flat primary action" type="button"&gt;Button button&lt;/button&gt;
-&lt;a class="flat primary action" href="#" role="button"&gt;Link button&lt;/a&gt;
-</code></pre>
-</div>
-
 <h2 id="guide-disabled-button">Disabled Button</h2>
 <p>Disabled buttons are used for buttons that are not enabled.</p>
 <p><button class="flat primary action" type="button" disabled="">Disabled Button</button></p>
@@ -176,6 +165,24 @@
 &lt;/div&gt;
 </code></pre>
 </div>
+
+<h2 id="guide-primary-button">Primary Button</h2>
+<p>Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.</p>
+<p>Use the <code class="highlighter-rouge">.flat</code> class for form actions and primary page actions. These are used extensively throughout the site.</p>
+
+<p>When using a <code class="highlighter-rouge">&lt;button&gt;</code> element, always specify a type. When using a <code class="highlighter-rouge">&lt;a&gt;</code> element, always add <code class="highlighter-rouge">role="button"</code> for accessibility.</p>
+
+<p><button class="flat primary action" type="button">Button Button</button>
+<a class="btn" href="#" role="button">Link button</a></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;button class="flat primary action" type="button"&gt;Button button&lt;/button&gt;
+&lt;a class="flat primary action" href="#" role="button"&gt;Link button&lt;/a&gt;
+</code></pre>
+</div>
+
+<h2 id="guide-text-button">Text Button</h2>
+<p>Text button.</p>
+<p><button class="timecard-options-button">OPTIONS<img src="https://jhersey.tsheets-dev.com/images/glyph_icons/triangle_down_16.png" /></button></p>
 
 <h1 id="guide-chips" class="cf">Chips</h1>
 
