@@ -1,0 +1,7 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+.page {
+  @import url('{{ site.baseurl }}/public/css/tsheets.css');
+}

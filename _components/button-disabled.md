@@ -1,13 +1,11 @@
 ---
-title: Disabled Buttons
+title: Disabled Button
 type: buttons
-summary: Disabled Button Summary
+summary: Disabled buttons are used for buttons that are not enabled.
 ---
 
-<button class="flat primary action" type="button" disabled>Disabled button</button>
-<a class="flat primary action disabled" href="#" role="button">Disabled button</a>
+<button class="flat primary action" type="button" disabled>Disabled Button</button>
 
 ```
-<button class="flat primary action" type="button" disabled>Disabled button</button>
-<a class="flat primary action disabled" href="#" role="button">Disabled button</a>
+<button class="flat primary action" type="button" disabled>Disabled Button</button>
 ```
